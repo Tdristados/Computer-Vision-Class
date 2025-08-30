@@ -32,9 +32,8 @@ python main.py
 |---|---|---|
 | `--img <ruta>` | string | Procesa una **imagen específica**. |
 | `--all` | flag | Procesa **todas** las imágenes ubicadas en `data/`. |
-| `--save <carpeta>` | string | **Guarda** todas las figuras en PNG dentro de la carpeta indicada en lugar de abrir ventanas. |
 
-> Recomendación: si su entorno no abre ventanas o desea conservar resultados, use `--save`.
+
 
 ### Ejemplos
 
@@ -47,11 +46,5 @@ python main.py --img data/ejemplo.png
 
 # 3) Procesar todas las imágenes de data/
 python main.py --all
-
-# 4) Guardar resultados en archivos (sin GUI)
-python main.py --img data/ejemplo.png --save outputs
-
-# 5) Lote + exportación
-python main.py --all --save outputs
 ```
 

@@ -17,16 +17,3 @@ python -m pytest -q
 python main.py
 ```
 
-## Instalación en Linux
-```bash
-git clone git clone https://github.com/Tdristados/Computer-Vision-Class.git
-cd Computer-Vision-Class
-
-# 2) Crear y activar environment 
-python3 -m venv .venv
-source .venv/bin/activate
-
-# 3) Instalar dependencias
-python3 -m pip install -r requirements.txt
-
-```

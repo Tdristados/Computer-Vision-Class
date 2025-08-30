@@ -7,8 +7,8 @@ Librería pequeña de Python con un script de demostración (`main.py`) y prueba
 ## Instalación (Windows, PowerShell)
 
 ```powershell
-git clone https://github.com/<tu-usuario>/<tu-repo>.git
-cd <tu-repo>
+git clone https://github.com/Tdristados/Computer-Vision-Class.git
+cd Computer-Vision-Class
 
 # Dependencias
 pip install -r requirements.txt
@@ -42,7 +42,7 @@ python main.py
 python main.py
 
 # 2) Procesar una imagen específica
-python main.py --img data/ejemplo.png
+python main.py --img data/bill.jpg
 
 # 3) Procesar todas las imágenes de data/
 python main.py --all
